@@ -9,7 +9,7 @@ function App() {
 
     const fetchData=async () => {
         try {
-            await fetch("http://localhost:5000/api/getdata", {
+            await fetch("https://node.primeswop.com/api/getsliderdata", {
                 method: "GET",
                 headers: {
                     "Content-Type" : "application/json"
