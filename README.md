@@ -23,11 +23,14 @@ You may also see any lint errors in the console.
 Run `nodemon` in the `backend` directory to start the node server.
 
 
-## Mongo DB set up
+## MongoDB set up
 
-### `1`. Login or sign up to MongoDB at [https://account.mongodb.com/](https://account.mongodb.com/)
-### `2`. Create a new database called `slider` and a new collection called `alldatas`
-### `3`. In the `alldatas` collection, click on `Add Data` and then `Import JSON or CSV file`
-### `4`. Select the file in the project directory `backend/data.json` and import the project datas.
-### `5` App setup completed.
+### `Step 1:`. Download and install MongoDB from the official website: [MongoDB Download Center](https://www.mongodb.com/try/download/community).
+### `Step 2:`. Download and install MongoDB Compass from the official website: [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+### `Step 3:`. Open MongoDB Compass after installing and click on `connect`
+### `Step 4:`. In the right hand panel, click on the `+` besides the `Databases` tab.
+### `Step 5:`. Create a new database called `slider` and a new collection called `alldatas`
+### `Step 6:`. In the `alldatas` collection, click on `Add Data` and then `Import JSON or CSV file`
+### `Step 7:`. Select the file in the project directory `backend/data.json` and import the project datas.
+### `Step 8:`. App setup completed.
 
